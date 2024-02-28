@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="15" height="15" viewBox="0 0 30.000000 15.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<!--   <path d="M5 0 A5 5 0 0 1 5 10 A5 5 0 0 1 5 0" fill="white" />
+  
+ -->
+   <circle cx="2" cy="2" r="1" fill="white" />
+  <circle cx="2" cy="8" r="1" fill="white" />
+  <circle cx="8" cy="2" r="1" fill="white" />
+  <circle cx="8" cy="8" r="1" fill="white" />
+  <circle cx="14" cy="2" r="1" fill="white" />
+  <circle cx="14" cy="8" r="1" fill="white" />
+</svg>

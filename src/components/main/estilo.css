@@ -1,0 +1,173 @@
+:root{
+    --alto:640px;
+    --ancho:650px
+}
+.mainX{
+    padding: 0 0 0 90px ;
+    height: var(--alto);
+    width: calc(var(--ancho) - 140px);
+}
+
+.mainX .contacts {
+    margin-top: 9px;
+    margin-bottom:  7px;
+}
+.mainX span {
+   font-size: 17px;
+   
+}
+.contacts div *{
+         display: inline;
+}
+.contacts p{
+    font-size: initial;
+}
+.contacts h4, .contacts h2{
+    width: calc(var(--ancho) - 220px);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(145deg,navy,pink);
+    border-radius: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-indent: 5px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+.contacts h2{
+
+    font-size: 28px !important;
+}
+.contacts div{
+    width: calc(var(--ancho) - 220px);
+    border-bottom: solid bisque 1px;
+}
+.contacts *{
+margin-top: 7px;
+margin-bottom: 5px;
+}
+.guia{
+    display: flex;
+    flex-direction: column;
+   
+}
+.guia input{
+    
+    position: absolute;
+    opacity: 0;
+}
+.guia label{
+    margin: 5px 0 5px 0px;
+    padding: 0 0 0 10px;
+}
+.guiaWors1{
+    
+    position: absolute;
+    font-size: large;
+    left: calc(var(--ancho) - 75px);
+    width: 40px;
+    top: 100px;
+    z-index: 4;
+}
+.guiaWors2{
+    position: absolute;
+   font-size: large;
+    left: calc(var(--ancho) - 30px);
+    width: 40px;
+    top: 120px;
+    z-index: 4;
+}
+#indice{
+    display: flex;
+    position: absolute;
+    top: calc(var(--alto) * 0.93);
+    left: calc(var(--ancho) / 1.89);
+}
+#indice input{
+    display: flex;
+       font-size: large;
+    width: 15%;
+    height: min-content;
+}
+#indice *{
+    margin: 0 0 0 10px;
+}
+.allDir{
+    position: absolute;
+   font-size: large;
+    left: calc(var(--ancho) - 70px);
+    width: 40px;
+    top: 75px;
+}
+.allDir *{
+    display: flex;
+    position: absolute;
+
+}
+.allDir input{
+    opacity: 0;
+}
+
+
+.red{
+    position:absolute;
+
+margin: 0;
+padding: 0;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+        visibility: collapse;
+}
+.blue{
+    z-index: 99;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    width: 50vw;
+    height: 50vh;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.form {
+    margin: 50px !important;
+}
+.collapsed{
+  
+ visibility: collapse;
+}
+.cartel{
+    z-index: 99;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top:0;
+display: flex;
+justify-content: center;
+align-items: center;
+backdrop-filter: blur(3px);
+   
+    
+}
+.barra{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: 70px;
+    justify-content: space-evenly;
+}
+.barra input{
+   height: 28px;
+}
+#offAll{
+   
+    opacity: 1 !important;
+    left:  45px;
+    top: 5px;
+
+}
